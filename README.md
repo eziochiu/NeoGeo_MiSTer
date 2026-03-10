@@ -18,6 +18,10 @@ Note: This core does not support encrypted ROMs. Make sure the ROM has no encryp
 
 [Darksoft to .neo conversion tool](https://gitlab.com/loic.petit/darksoft-to-neosd/)
 
+## Build & Deploy
+For a full Chinese guide covering `Quartus` builds, MiSTer/DE10-Nano deployment, and `ROM`/`BIOS`/`romsets.xml` setup, see [`docs/BUILD.md`](docs/BUILD.md).
+If you need a broader MiSTer/DE10-Nano getting-started guide covering SD imaging, updates, core deployment, and the difference between `.rbf` and `.sof`, see [`docs/MISTER_DE10_SETUP.md`](docs/MISTER_DE10_SETUP.md).
+
 ## Installation
 Copy the NeoGeo_\*.rbf file to the 'Console' or 'Arcade' folder (your choice) on the SD card. ROMs should go in the 'games\NeoGeo' folder. For ease of use, it is strongly suggested that people use the Darksoft ROM pack. These can be either zipped or unzipped with minimal loading speed difference. Several things must be observed:
 * When using an unzipped Darksoft ROM set, each game's ROM files must be in their own folder and the folders containing the ROM sets must be named to match the XML (MAME standard names)
